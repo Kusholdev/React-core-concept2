@@ -2,6 +2,7 @@ import { use } from "react"
 import PostDescription from "./post"
 
 export default function Posts({postsPromise}){
+    // use keyword - for load the data
     const posts1 = use(postsPromise)
     // console.log(posts1)
      return(
